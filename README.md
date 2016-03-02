@@ -20,6 +20,12 @@ postgres            latest      213.90 MB
 $ make build
 ```
 
+# DockerHub
+
+This image is published on DockerHub as `docker pull kiasaki/alpine-postgres`.
+
+[Click here to see it's DockerHub homepage](https://hub.docker.com/r/kiasaki/alpine-postgres/)
+
 # Usage
 
 This image works in the same way the official `postgres` docker image work.
