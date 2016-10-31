@@ -1,8 +1,6 @@
 # PostgreSQL docker image based on Alpine Linux
 
-[![](https://badge.imagelayers.io/kiasaki/alpine-postgres:latest.svg)](https://imagelayers.io/?images=kiasaki/alpine-postgres:latest 'Get your own badge on imagelayers.io')
-
-This repo builds a docker image that accepts the same env vars as the
+This repository builds a docker image that accepts the same env vars as the
 [official postgres build](https://registry.hub.docker.com/_/postgres/) but
 with a much smaller footprint. It achieves that by basing itself off the tiny
 official alpine linux image.
@@ -12,7 +10,7 @@ official alpine linux image.
 ```bash
 $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-alpine-postgres     latest              82d0ddb748fd        About an hour ago   27.35 MB
+alpine-postgres     latest              b98ff96bb65a        About an hour ago   30.82 MB
 alpine              latest              70c557e50ed6        5 weeks ago         4.798 MB
 percona             latest              70588d0c4cd4        4 weeks ago         308.6 MB
 postgres            latest              6d6a71f8528e        4 weeks ago         265.1 MB
