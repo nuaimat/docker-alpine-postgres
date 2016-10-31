@@ -1,4 +1,6 @@
 #!/bin/sh
+mkdir -p "$PGDATA"
+chmod 700 "$PGDATA"
 chown -R postgres "$PGDATA"
 
 if [ -z "$(ls -A "$PGDATA")" ]; then
