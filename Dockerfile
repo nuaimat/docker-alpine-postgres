@@ -17,5 +17,7 @@ COPY docker-entrypoint.sh /
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
+RUN mkdir -p /run/postgresql && chown -R postgres /run/postgresql
+
 EXPOSE 5432
 CMD ["postgres"]
